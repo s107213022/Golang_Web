@@ -1,0 +1,10 @@
+{
+    "envs": [
+      "ORM_DRIVER=mysql",
+      "ORM_SOURCE=root:my-secret-pw@/hellodb?charset=utf8"
+    ],
+    "database": {
+      "driver": "mysql",
+      "conn": "root:my-secret-pw@/hellodb?charset=utf8"
+    }
+  }
