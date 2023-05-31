@@ -1,6 +1,7 @@
 package main
 
 import (
+	"Golang_web/models"
 	_ "Golang_web/routers"
 	"fmt"
 	"os"
@@ -37,5 +38,11 @@ func init() {
 }
 
 func main() {
+	user, err := models.GetUserById(1)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println(user)
 	beego.Run()
+
 }
