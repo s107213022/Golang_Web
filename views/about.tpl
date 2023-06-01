@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- 引入 Bootstrap 的 CSS 檔案 -->
-    <link rel="stylesheet" href="/static/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/vendor/bootstrap/css/bootstrap.min.css">
     <title>Bootstrap Frontend</title>
 </head>
 <body>
@@ -39,6 +39,6 @@
     </div>
 
     <!-- 引入 Bootstrap 的 JavaScript 檔案（需要包含在 body 結束標籤之前） -->
-    <script src="/static/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/vendor/bootstrap/bootstrap.bundle.min.js"></script>
 </body>
 </html>
